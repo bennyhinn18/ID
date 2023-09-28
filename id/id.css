@@ -1,6 +1,6 @@
 #container{
     
-    width: 40%; /* Adjust the width as needed */
+    max-width: 420px; 
     margin: 0 auto;
     border: 1px solid #f0e9e9; /* Border around the content */
     padding: 20px; /* Padding inside the box */
@@ -51,7 +51,7 @@ h1{
     height: 200px;
     margin: 0 auto;
     display: block;
-    background-image: url("download.jpg");
+    background-image: url("download.jpg");/* replace with your image size(150 x 200)px */
     background-repeat: no-repeat;
     background-position: center;
     border: 1px solid black;
@@ -67,7 +67,7 @@ h1{
     
 }
 #line{
-    border: 5px solid #851818; /* This creates a 1-pixel solid line */
+    border: 5px solid #851818; /* This creates a 5-pixel solid line */
     margin-bottom: 2%;
 
 }
@@ -128,7 +128,7 @@ h1{
     height: 78px;
     margin: 0 auto;
     display: block;
-    background-image: url("barcode.gif");
+    background-image: url("barcode.gif");/* replace barcode with your barcode size(300 x 78)px */
     background-size: 80%;
     background-repeat: no-repeat;
     background-position: center;
