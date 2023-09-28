@@ -1,0 +1,140 @@
+#container{
+    
+    width: 50%; /* Adjust the width as needed */
+    margin: 0 auto;
+    border: 1px solid #f0e9e9; /* Border around the content */
+    padding: 20px; /* Padding inside the box */
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+#logo {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    display: block;
+    background-image: url("logo.png");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+#clg {
+    margin: 0 auto;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #851818;
+    
+}
+#clg1 {
+    margin: 0 auto;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    
+}
+h1{
+    margin: 0 auto;
+}
+
+#p1{
+    
+    margin: 0 auto;
+}
+
+#photo{
+    width: 200px;
+    height: 250px;
+    margin: 0 auto;
+    display: block;
+    background-image: url("profile.png");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid black;
+    
+   
+}
+#web{
+    margin: 0 auto;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight:250px;
+    
+}
+#line{
+    border: 5px solid #851818; /* This creates a 1-pixel solid line */
+    margin-bottom: 2%;
+
+}
+#name{
+    margin-top: 2%;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+#con{
+    display: flex;
+}
+#dept{
+    margin-left: 10%;
+}
+#p2{
+    text-align: left;
+    margin-bottom: 0%;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+#cse{
+    text-align: left;
+    margin-top: 0;
+    margin-left: 37px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#year{
+    
+    margin-left: 23%;
+
+}
+#p22{
+    text-align: left;
+    margin-bottom: 0%;
+    margin-left: 37px;
+    font-size: 20px;
+    font-family: sans-serif;
+    
+}
+#p23{
+    text-align: right;
+    margin-top: 0;
+    margin-left: 21px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+#barcode{
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    display: block;
+    background-image: url("logo.png");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#no{
+    margin-top: 2%;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
