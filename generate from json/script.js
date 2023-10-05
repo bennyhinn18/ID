@@ -66,18 +66,18 @@ document.addEventListener('DOMContentLoaded', function() {
     `;
     var studinfo = `
     <div id="dob">
-        <p>Date of Birth : ${dob} </p>
+        <p><b>Date of Birth : </b>${dob} </p>
       </div>
       <div id="blood">
-        <p>Blood Group :${blood}</p>
+        <p><b>Blood Group :</b> ${blood}</p>
       </div>
       <br>
       <div id="address">
-        <p>Address <br><br> ${address}</p>
+        <p><b>Address</b> <br><br> ${address}</p>
       </div>
       <br><br>
       <div id="mobile">
-        <p>Mobile Number : ${mobile}</p>
+        <p><b>Mobile No :</b> ${mobile}</p>
         </div>
         <br><br>
     `;

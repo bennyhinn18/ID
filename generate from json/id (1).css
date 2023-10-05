@@ -1,14 +1,20 @@
-
+#inputForm {
+    text-align: center;
+    margin: 20px; /* Adjust the margin as needed */
+}
 #container{
     
-    max-width: 420px; 
+    max-width: 420px;
+    width: 100%;
     margin: 0 auto;
+    margin-right:5px;
     border: 1px solid #f0e9e9; /* Border around the content */
      /* Padding inside the box */
     text-align: center;
     border-radius: 10px;
     box-shadow: 0 0 5px rgba(0,0,0,0.5);
     background-color:white;
+    float:left;
 }
 #logo {
     width: 110px;
@@ -149,22 +155,24 @@ P{
 .back{
     position: relative;
     max-width: 420px;
-    min-height: 614.578px; 
+    width: 100%;
+    min-height: 614.578px;
     margin: 0 auto;
+    margin-left:5px ; 
     border: 1px solid #f0e9e9; /* Border around the content */
      /* Padding inside the box */
     text-align: center;
     border-radius: 10px;
     box-shadow: 0 0 5px rgba(0,0,0,0.5);
     background-color:white;
+    float: right;
 }
 .info {
   
   margin: 0 auto;
   width: 100%;
   text-align: center;
-  white-space: nowrap; /* Prevent line breaks */
-  
+  white-space: nowrap; /* Prevent line breaks */ 
   position: absolute;
   bottom: 80px;
 }
@@ -216,4 +224,10 @@ P{
 }
 #dob{
     margin-top: 20px;
+}
+.container-wrapper {
+    display: flex;
+    justify-content: space-between;
+    
+     /* Added margin for spacing around the containers */
 }
