@@ -29,8 +29,13 @@ document.addEventListener('DOMContentLoaded', function() {
         } else if (department == "CSB") {
             department = "CSE B";
         }
-            var gradYear = joinYear + 4;
-
+        var gradYear = joinYear + 4;
+            var address = studentData["Address"];
+            address = address.replace(/\n/g, '<br>');
+            var mobile = studentData["Mobile Number"];
+            var dob = studentData["Date of Birth"];
+            dob=dob.substring(0,10);
+            var blood = studentData["Blood Group"];
     // Generate the ID card HTML
     var idCardHTML = `
         
@@ -58,12 +63,28 @@ document.addEventListener('DOMContentLoaded', function() {
     <div id="rollno">
         <p>ID NO : ${roll}</p>
     </div>
-  
+    `;
+    var studinfo = `
+    <div id="dob">
+        <p>Date of Birth : ${dob} </p>
+      </div>
+      <div id="blood">
+        <p>Blood Group :${blood}</p>
+      </div>
+      <br>
+      <div id="address">
+        <p>Address <br><br> ${address}</p>
+      </div>
+      <br><br>
+      <div id="mobile">
+        <p>Mobile Number : ${mobile}</p>
+        </div>
+        <br><br>
     `;
 
     // Display the generated ID card
     document.getElementById('idCardContainer').innerHTML = idCardHTML;
-
+    document.getElementById('studinfo').innerHTML = studinfo;
     // Generate and display the barcode
     var barcodeImage = document.getElementById('barcodeImage');
     JsBarcode(barcodeImage, roll, {
