@@ -1,0 +1,194 @@
+#container{
+    
+    max-width: 420px; 
+    margin: 0 auto;
+    border: 1px solid #f0e9e9; /* Border around the content */
+     /* Padding inside the box */
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    background-color:white;
+}
+#logo {
+    width: 110px;
+    height: 90px;
+    margin: 0 auto;
+    display: block;
+    background-image: url("logo.png");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+#clg {
+    margin: 0 auto;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #851818;
+    
+}
+#clg1 {
+    margin: 0 auto;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    
+}
+h1{
+    margin: 0 auto;
+}
+
+#name{
+    
+    margin: 0 auto;
+}
+
+#photo{
+    
+    width: 150px;
+    height: 200px;
+    margin: 0 auto;
+    display: block;
+    border: 1px solid black;
+    
+   
+}
+#web{
+    margin: 0 auto;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight:250px;
+    
+}
+#line{
+    border: 5px solid #851818; /* This creates a 5-pixel solid line */
+    margin-bottom: 2%;
+
+}
+#b1{
+    margin-top: 2%;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 4%;
+
+}
+#con{
+    display: flex;
+}
+#dept{
+    margin-left: 10%;
+}
+#p2{
+    text-align: left;
+    margin-bottom: 0%;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+#cse{
+    text-align: left;
+    margin-top: 0;
+    margin-left: 37px;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#year{
+    
+    margin-left: auto;
+    margin-right: 10%;
+
+}
+#p22{
+    text-align: left;
+    margin-bottom: 0%;
+    margin-left: 37px;
+    font-size: 18px;
+    font-family: sans-serif;
+    
+}
+#p23{
+    text-align: right;
+    margin-top: 0;
+    margin-left: 21px;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+#barcode img {
+    max-width: 100%; /* Ensure the barcode image doesn't exceed the container size */
+    width: 300px;
+    height: 72px;
+    display: block; /* Center the image */
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+
+#rollno{
+    margin: 0 auto;
+    padding:10px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+P{
+    margin: 0 auto; 
+}
+
+
+.back{
+    max-width: 420px; 
+        margin: 0 auto;
+        border: 1px solid #f0e9e9; /* Border around the content */
+         /* Padding inside the box */
+        text-align: center;
+        border-radius: 10px;
+        box-shadow: 0 0 5px rgba(0,0,0,0.5);
+        background-color:white;
+}
+.info {
+  
+  margin: 0 auto;
+  text-align: center;
+  white-space: nowrap; /* Prevent line breaks */
+  font-family: sans-serif;
+}
+.info p {
+  margin: 5px;
+}
+
+.border-box {
+  background-color: #851818;
+  margin: 0px;
+  color: white;
+}
+.border-box p {
+  margin: 0px;
+  font-family: sans-serif;
+  padding: 5px;
+
+  
+}
+
+.top-border-box {
+    margin: 0px;
+  text-align: center;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.bottom-border-box {
+    margin: 0px;
+  text-align: center;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
