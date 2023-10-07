@@ -225,7 +225,7 @@ P{
 #dob{
     margin-top: 20px;
 }
-.container-wrapper {
+#container-wrapper {
     display: flex;
     justify-content: space-between;
     

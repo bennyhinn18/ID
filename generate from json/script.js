@@ -95,6 +95,30 @@ document.addEventListener('DOMContentLoaded', function() {
 } else {
     alert("Student not found with provided Roll Number.");
 }
+document.getElementById('printButton').addEventListener('click', function() {
+    printID();
+});
+function printID() {
+    var container = document.getElementById('container-wrapper').outerHTML;
+    
+    var printWindow = window.open('', '_blank');
+    printWindow.document.write('<html><head><title>ID Card</title></head><body>');
+    printWindow.document.write(container);
+    printWindow.document.write('</body></html>');
+
+    var styles = Array.from(document.styleSheets).map(styleSheet => {
+        return Array.from(styleSheet.cssRules).map(rule => rule.cssText).join('\n');
+    }).join('\n');
+    
+    var styleElement = printWindow.document.createElement('style');
+    styleElement.textContent = 'text/css';
+    styleElement.appendChild(document.createTextNode(styles));
+    printWindow.document.head.appendChild(styleElement);
+    printWindow.document.close();
+    printWindow.print();
+}
+
+
 })
 .catch(error => console.error('Error:', error));
 });
